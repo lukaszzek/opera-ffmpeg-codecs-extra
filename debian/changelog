@@ -1,3 +1,10 @@
+chromium-browser (6.0.472.63~r59945-5+squeeze1) UNRELEASED; urgency=high
+
+  * Backported security patches from stable:
+    - High Use-after-free in image loading. Credit to Aki Helin of OUSPG
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Sun, 06 Feb 2011 12:33:22 +0100
+
 chromium-browser (6.0.472.63~r59945-5) unstable; urgency=high
 
   * Backported security patches from stable:
