@@ -1,11 +1,11 @@
-chromium-browser (6.0.472.63~r59945-5+squeeze1) UNRELEASED; urgency=high
+chromium-browser (6.0.472.63~r59945-5+squeeze1) stable-security; urgency=high
 
   * Backported security patches from stable:
     - High Use-after-free in image loading. Credit to Aki Helin of OUSPG
     - Low Browser crash with extension with missing key. Credit to Brian Kirchoff.
     - Low Browser crash with bad volume setting. Credit to Matthew Heidermann.
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Sun, 06 Feb 2011 13:06:24 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Mon, 07 Feb 2011 19:39:37 +0100
 
 chromium-browser (6.0.472.63~r59945-5) unstable; urgency=high
 
