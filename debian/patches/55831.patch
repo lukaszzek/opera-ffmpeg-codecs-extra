@@ -146,7 +146,7 @@
  bool CachedResource::mustRevalidate(CachePolicy cachePolicy) const
  {
 -    if (m_errorOccurred)
-+    if if (errorOccurred())
++    if (errorOccurred())
          return true;
  
      if (m_loading)
