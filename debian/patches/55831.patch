@@ -248,6 +248,15 @@
          
 --- a/src/third_party/WebKit/WebCore/loader/loader.cpp
 +++ b/src/third_party/WebKit/WebCore/loader/loader.cpp
+@@ -381,7 +381,7 @@ void Loader::Host::servePendingRequests(
+         } else {            
+             docLoader->decrementRequestCount(request->cachedResource());
+             docLoader->setLoadInProgress(true);
+-            request->cachedResource()->error();
++            request->cachedResource()->error(CachedResource::LoadError);
+             docLoader->setLoadInProgress(false);
+             delete request;
+         }
 @@ -460,7 +460,7 @@ void Loader::Host::didFail(SubresourceLo
  
      if (!cancelled) {
