@@ -1,4 +1,4 @@
-chromium-browser (6.0.472.63~r59945-5+squeeze2) stable-security; urgency=low
+chromium-browser (6.0.472.63~r59945-5+squeeze2) stable-security; urgency=high
 
   * Backported security patches from stable:
     - High Stale pointer in animation event handling. Credit to Rik Cabanier.
@@ -9,7 +9,7 @@ chromium-browser (6.0.472.63~r59945-5+squeeze2) stable-security; urgency=low
     - Medium Possible failure to terminate process on out-of-memory condition.
       Credit to David Warren of CERT/CC.
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 11 Feb 2011 17:08:57 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 11 Feb 2011 17:09:54 +0100
 
 chromium-browser (6.0.472.63~r59945-5+squeeze1) stable-security; urgency=high
 
