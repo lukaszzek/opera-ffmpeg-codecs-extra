@@ -4,8 +4,12 @@ chromium-browser (6.0.472.63~r59945-5+squeeze2) stable-security; urgency=low
     - High Stale pointer in animation event handling. Credit to Rik Cabanier.
     - High Stale pointer with anonymous block handling. Credit to Martin
       Barbella.
+    - Medium Out-of-bounds read in plug-in handling. Credit to Bill Budge of
+      Google. 
+    - Medium Possible failure to terminate process on out-of-memory condition.
+      Credit to David Warren of CERT/CC.
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 11 Feb 2011 15:53:13 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 11 Feb 2011 17:08:57 +0100
 
 chromium-browser (6.0.472.63~r59945-5+squeeze1) stable-security; urgency=high
 
