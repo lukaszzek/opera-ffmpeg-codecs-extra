@@ -1,3 +1,11 @@
+chromium-browser (6.0.472.63~r59945-5+squeeze3) stable-security; urgency=low
+
+  * Backported security patches from stable:
+    - [54262] High URL bar spoof with history interaction. Credit to Jordi
+      Chancel.
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Tue, 01 Mar 2011 20:55:18 +0100
+
 chromium-browser (6.0.472.63~r59945-5+squeeze2) stable-security; urgency=high
 
   * Backported security patches from stable:
