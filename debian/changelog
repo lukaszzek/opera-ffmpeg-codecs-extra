@@ -10,9 +10,10 @@ chromium-browser (6.0.472.63~r59945-5+squeeze3) stable-security; urgency=low
     - [64-bit Linux only] [70376] Medium Out-of-bounds read in pickle
       deserialization. Credit to Evgeniy Stepanov of the Chromium development
       community.
-   -  [71114] High Stale node in table child handling. Credit to Martin Barbella
+    - [71114] High Stale node in table child handling. Credit to Martin Barbella
+    - [71115] High Stale pointer in table rendering. Credit to Martin Barbella.
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Thu, 03 Mar 2011 18:13:28 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Thu, 03 Mar 2011 18:20:38 +0100
 
 chromium-browser (6.0.472.63~r59945-5+squeeze2) stable-security; urgency=high
 
