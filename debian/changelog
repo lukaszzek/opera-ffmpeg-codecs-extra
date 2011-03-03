@@ -7,8 +7,11 @@ chromium-browser (6.0.472.63~r59945-5+squeeze3) stable-security; urgency=low
     - [68263] High Stylesheet node stale pointer. Credit to Sergey Glazunov.
     - [69640] Medium Out-of-bounds read in text searching. Credit to Kostya
       Serebryany of the Chromium development community
+    - [64-bit Linux only] [70376] Medium Out-of-bounds read in pickle
+      deserialization. Credit to Evgeniy Stepanov of the Chromium development
+      community.
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Thu, 03 Mar 2011 16:36:36 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Thu, 03 Mar 2011 17:00:14 +0100
 
 chromium-browser (6.0.472.63~r59945-5+squeeze2) stable-security; urgency=high
 
