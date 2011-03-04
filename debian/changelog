@@ -15,8 +15,9 @@ chromium-browser (6.0.472.63~r59945-5+squeeze3) stable-security; urgency=low
     - [71855] High Integer overflow in textarea handling. Credit to miaubiz.
     - [71960] Medium Out-of-bounds read in WebGL. Credit to Google Chrome
       Security Team (Inferno).
+    - [72134] High Memory corruption in SVG fonts. Credit to Andreas Kling.
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 04 Mar 2011 15:37:06 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 04 Mar 2011 15:40:58 +0100
 
 chromium-browser (6.0.472.63~r59945-5+squeeze2) stable-security; urgency=high
 
