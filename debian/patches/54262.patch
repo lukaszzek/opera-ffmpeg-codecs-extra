@@ -224,7 +224,7 @@
  
 -    RefPtr<HistoryItem> item = HistoryItem::create(url, m_frame->tree()->name(), parent, title);
 +    item->setURL(url);
-+    item->setTarget(m_frame->tree()->uniqueName());
++    item->setTarget(m_frame->tree()->name());
 +    item->setParent(parent);
 +    item->setTitle(title);
      item->setOriginalURLString(originalURL.string());
