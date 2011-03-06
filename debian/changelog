@@ -21,8 +21,9 @@ chromium-browser (6.0.472.63~r59945-5+squeeze3) stable-security; urgency=low
     - [70027] High Stale node in box layout. Credit to Martin Barbella. 
     - [70336] Medium Cross-origin error message leak with workers.
       Credit to Daniel Divricean.
+    - [72028] High Stale pointer in table painting. Credit to Martin Barbella.
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Sun, 06 Mar 2011 19:56:31 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Sun, 06 Mar 2011 20:22:48 +0100
 
 chromium-browser (6.0.472.63~r59945-5+squeeze2) stable-security; urgency=high
 
