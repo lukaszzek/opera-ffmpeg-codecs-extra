@@ -23,8 +23,10 @@ chromium-browser (6.0.472.63~r59945-5+squeeze3) stable-security; urgency=low
       Credit to Daniel Divricean.
     - [72028] High Stale pointer in table painting. Credit to Martin Barbella.
     - [73746] High Stale pointer with SVG cursors. Credit to Sergey Glazunov.
+    - [74030] High DOM tree corruption with attribute handling.
+      Credit to Sergey Glazunov.
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Sun, 06 Mar 2011 20:39:33 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Sun, 06 Mar 2011 20:44:56 +0100
 
 chromium-browser (6.0.472.63~r59945-5+squeeze2) stable-security; urgency=high
 
