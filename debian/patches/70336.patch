@@ -52,10 +52,10 @@
          state->hadException = false;
 --- a/src/third_party/WebKit/WebCore/dom/ScriptExecutionContext.cpp
 +++ b/src/third_party/WebKit/WebCore/dom/ScriptExecutionContext.cpp
-@@ -274,3 +274,14 @@ JSC::JSGlobalData* ScriptExecutionContex
- #endif
+@@ -225,6 +225,17 @@ void ScriptExecutionContext::setSecurity
+     m_securityOrigin = securityOrigin;
+ }
  
- } // namespace WebCore
 +bool ScriptExecutionContext::sanitizeScriptError(String& errorMessage, int& lineNumber, String& sourceURL)
 +{
 +    KURL targetURL = completeURL(sourceURL);
@@ -67,6 +67,9 @@
 +    return true;
 +}
 +
+ void ScriptExecutionContext::addTimeout(int timeoutId, DOMTimer* timer)
+ {
+     ASSERT(!m_timeouts.contains(timeoutId));
 --- a/src/third_party/WebKit/WebCore/dom/ScriptExecutionContext.h
 +++ b/src/third_party/WebKit/WebCore/dom/ScriptExecutionContext.h
 @@ -91,6 +91,7 @@ namespace WebCore {
