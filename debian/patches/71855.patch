@@ -5,7 +5,7 @@
                      // the line that they're on, but it still needs to be dirtied. This is
                      // accomplished by pretending they have a height of 1.
 -                    bottom = max(bottom, it.current()->m_top + 1);
-+		    bottom = max(bottom, m_top == numeric_limits<int>::max() ? m_top : m_top + 1);
++		    bottom = max(bottom, it.current()->m_top == numeric_limits<int>::max() ? it.current()->m_top : it.current()->m_top + 1);
                      markLinesDirtyInVerticalRange(0, bottom);
                  }
                  m_floatingObjects->removeRef(it.current());
