@@ -131,7 +131,7 @@
 +    if (!document)
          return 0;
 -    return m_ownerDocument->docLoader();
-+    return document->cachedResourceLoader();
++    return document->docLoader();
  }
  
  bool XSLStyleSheet::parseString(const String& string, bool)
