@@ -9,7 +9,7 @@
 -  }
 -
 -  Cleanup();
-+  UpdateDelegate(false, L"", suppress_js_messages);
++  UpdateDelegate(false, L"", false);
  }
  
  void JavaScriptAppModalDialog::OnAccept(const std::wstring& prompt_text,
@@ -55,9 +55,9 @@
 +  if (skip_this_dialog_)
 +    return;
 +
-+  delegate_->OnMessageBoxClosed(reply_msg_, success, prompt_text);
++  client_->OnMessageBoxClosed(reply_msg_, success, prompt_text);
 +  if (suppress_js_messages)
-+    delegate_->SetSuppressMessageBoxes(true);
++    client_->SetSuppressMessageBoxes(true);
 +
 +  skip_this_dialog_ = true;
  }
