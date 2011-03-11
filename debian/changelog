@@ -3,8 +3,10 @@ chromium-browser (6.0.472.63~r59945-5+squeeze4) stable-security; urgency=low
   * Fixed CVE-2011-0779: does not properly handle a missing key in an extension,
     which allows remote attackers to cause a denial of service
    (application crash) via a crafted extension.
+  * Fixed CVE-2011-1290: Integer overflow in style elements
+  * Removed mips from arch to avoid flood of given-back build log
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 11 Mar 2011 13:39:25 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 11 Mar 2011 13:56:22 +0100
 
 chromium-browser (6.0.472.63~r59945-5+squeeze3) stable-security; urgency=low
 
