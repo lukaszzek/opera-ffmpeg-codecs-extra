@@ -2,8 +2,10 @@ chromium-browser (6.0.472.63~r59945-5+squeeze5) stable-security; urgency=low
 
   * Fixed CVE-2011-1292: Use-after-free in the frame loader.
     Credit to Sławomir Błażek.
+  * Fixed CVE-2011-1293: Use-after-free in HTMLCollection.
+    Credit to Sergey Glazunov.
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Mon, 28 Mar 2011 13:26:01 +0200
+ -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 08 Apr 2011 15:12:39 +0200
 
 chromium-browser (6.0.472.63~r59945-5+squeeze4) stable-security; urgency=low
 

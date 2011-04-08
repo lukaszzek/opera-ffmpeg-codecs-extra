@@ -74,3 +74,4 @@ ffmpeg_arm.patch
 62791.patch
 75712.patch
 CVE-2011-1292.patch
+CVE-2011-1293.patch
