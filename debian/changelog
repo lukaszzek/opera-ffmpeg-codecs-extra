@@ -4,8 +4,15 @@ chromium-browser (6.0.472.63~r59945-5+squeeze5) stable-security; urgency=low
     Credit to Sławomir Błażek.
   * Fixed CVE-2011-1293: Use-after-free in HTMLCollection.
     Credit to Sergey Glazunov.
+  * Fixed CVE-2011-1440: Use-after-free with <ruby> tag and CSS.
+    Credit to Jose A. Vazquez.
+  * Fixed CVE-2011-1444: Race condition in sandbox launcher.
+    Credit to Dan Rosenberg.
+  * Fixed CVE-2011-1797: stale pointer in table captioning (credit: wushi)
+  * Fixed CVE-2011-1799: Bad casts in Chromium WebKit glue.
+    Credit to Google Chrome Security Team (SkyLined).
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 08 Apr 2011 15:12:39 +0200
+ -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 13 May 2011 18:57:51 +0200
 
 chromium-browser (6.0.472.63~r59945-5+squeeze4) stable-security; urgency=low
 
